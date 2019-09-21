@@ -60,7 +60,9 @@ document.getElementById('prev').addEventListener("click",()=>{
 })
 
 document.getElementById('next').addEventListener("click", ()=>{
-    if(current!=5){
+    if(current!=4){
+
+        
 
         document.getElementById('title').innerHTML = myEssays[current+1].title
         document.getElementById('content').innerHTML = myEssays[current+1].essay
